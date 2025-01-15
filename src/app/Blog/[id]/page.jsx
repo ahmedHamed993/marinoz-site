@@ -2,39 +2,6 @@ import React from 'react';
 import styles from './page.module.css';
 
 const BlogDetails = () => {
-  const blogContent = `
-    <h1>The Importance of Clean Code</h1>
-    <h2>How Writing Clean Code Benefits Developers and Projects</h2>
-    <p>Published on January 15, 2025</p>
-    <div>
-      <p>
-        Writing clean code is more than just a best practice; it’s a philosophy that makes your codebase easier to maintain, understand, and extend. 
-        Developers often overlook clean coding principles due to tight deadlines, but adhering to these principles ensures long-term success.
-      </p>
-      <p>Here are some of the key reasons why clean code matters:</p>
-      <ul>
-        <li>Improves collaboration among developers.</li>
-        <li>Reduces the likelihood of introducing bugs.</li>
-        <li>Enhances code readability and maintainability.</li>
-        <li>Facilitates faster onboarding of new team members.</li>
-      </ul>
-      <p>Clean code practices can be summarized by these guiding principles:</p>
-      <ol>
-        <li>Write meaningful names for variables, functions, and classes.</li>
-        <li>Keep functions small and focused on a single task.</li>
-        <li>Follow consistent formatting and style conventions.</li>
-        <li>Write unit tests to ensure code reliability.</li>
-        <li>Refactor code regularly to eliminate duplication and improve structure.</li>
-      </ol>
-      <p>
-        By adopting these practices, teams can achieve greater productivity, deliver robust applications, and ensure long-term maintainability of their codebases.
-      </p>
-      <p>
-        Remember, clean code is not just for others to read; it’s for your future self as well. The investment in writing clean code today pays off in every future interaction with the codebase.
-      </p>
-    </div>
-  `;
-
   return (
     <div className={styles?.blog_details}>
         <div className="container"> 

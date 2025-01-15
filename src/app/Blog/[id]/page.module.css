@@ -6,12 +6,17 @@
     gap:48px;
     justify-content: flex-start;
     margin-bottom:48px;
-    flex-wrap:wrap;
+    @media only screen and (max-width:1200px){
+        flex-wrap:wrap;
+    }
 }
 .first_section > img {
     aspect-ratio: 1/1;
     object-fit: cover;
     width:500px;
+    @media only screen and (max-width:991px){
+        width:350px;
+    }
     max-width: 100%;
     border-radius:8px;
 }
@@ -50,11 +55,17 @@ color:#181D24;
     justify-content: flex-start;
     margin-bottom:48px;
     flex-wrap:wrap;
+    @media only screen and (max-width:1200px){
+        flex-wrap:wrap;
+    }
 }
 .second_section > img {
     aspect-ratio: 1/1;
     object-fit: cover;
     width:500px;
+    @media only screen and (max-width:991px){
+        width:350px;
+    }
     border-radius:8px;
     max-width: 100%;
 }
