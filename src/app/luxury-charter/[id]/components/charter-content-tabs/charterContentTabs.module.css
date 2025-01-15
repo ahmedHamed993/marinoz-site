@@ -1,0 +1,48 @@
+.content {
+  flex: 1;
+  padding-bottom: 64px;
+}
+
+.content__tabs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.content__tabs button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #333333;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 14px;
+  text-transform: uppercase;
+}
+
+.content__tabs button.active {
+  border-bottom: 2px solid #226699;
+}
+
+.content__line {
+  margin: 8px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.title {
+  margin-top: 16px;
+}
+
+.title h1 {
+  color: #034ea2;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Comfortaa";
+}
+
+.title p {
+  color: #9e9e9e;
+}

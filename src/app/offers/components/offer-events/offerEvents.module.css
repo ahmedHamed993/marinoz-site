@@ -1,0 +1,17 @@
+.offer_events {
+  padding: 50px 0;
+}
+.offer_events h6 {
+  font-family: Lato;
+  font-size: 35.42px;
+  font-weight: 700;
+  line-height: 42.51px;
+  margin-bottom: 20px;
+  color: #9e0059;
+}
+.offer_events_list {
+  display: flex;
+  gap: 16px;
+  overflow: auto;
+  padding: 32px 0;
+}

@@ -1,0 +1,59 @@
+.footer {
+  background: linear-gradient(90.2deg, #034ea2 -1.77%, #011d3c 168.9%);
+  padding-top: 5rem;
+  /* background-image: url("../Assets/Images/rgrgr-04\ 2.png"); */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.footer img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.footer a {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #ffffff66;
+}
+
+.copyRight p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.copyRight ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.copyRight ul li i {
+  color: #fff;
+  margin: 0 1rem;
+}

@@ -1,0 +1,100 @@
+.Careers {
+  padding: 5rem 0;
+}
+
+.Careers span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.Careers h1 {
+  font-size: 52px;
+  color: #033975;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.Careers p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.Careers img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.CareerCard {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px 0px #a3aaca54;
+  margin: 1rem 0;
+}
+
+.CareerCard h2 {
+  color: #033975;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.CareerCard h3 {
+  font-size: 14px;
+  color: #033975;
+}
+
+.CareerCard p {
+  font-size: 14px;
+  color: #033975;
+  margin-bottom: 1rem;
+
+  
+}
+
+.CareerCard .CareerCardLocation {
+  border-bottom: 1px solid #9f886a52;
+  border-top: 1px solid #9f886a52;
+  padding: 0.5rem 0;
+}
+
+.CareerCard .CareerCardLocation h4 {
+  color: #033975;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CareerCard .CareerCardLocation h4 span {
+  color: #033975;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+
+}
+
+.CareerCard span {
+  color: #033975;
+  font-size: 14px;
+}
+
+.CareerCard button {
+  background-color: #0fb0c4;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  font-weight:500;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family:"Lato";
+  color: #fff;
+  border: none;
+  border-radius: 0 12px 0 12px;
+
+  margin: 1.5rem auto 0;
+}

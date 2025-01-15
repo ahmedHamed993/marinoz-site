@@ -1,0 +1,29 @@
+.custom_event {
+  padding: 40px 80px;
+  background: url("/images/custom-event-bg-2.png");
+  border-radius: 32px;
+  color: #fff;
+}
+
+.custom_event h1 {
+  font-family: Comfortaa;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 69.12px;
+}
+
+.custom_event p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 900px;
+}
+
+.custom_event button {
+  background-color: #ca852c;
+  margin-top: 32px;
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  color: #fff;
+}

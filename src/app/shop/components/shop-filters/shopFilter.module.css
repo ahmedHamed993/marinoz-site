@@ -1,0 +1,45 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0;
+}
+.categories_filters h6,
+.price_filters h6 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  color: #033975;
+  margin-bottom: 16px;
+}
+.categories_filters .categories_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.categories_filters .categories_wrapper button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: start;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #033975;
+}
+
+.price_filters .prices_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.price_filters .prices_wrapper .price_check {
+  text-align: start;
+  font-weight: 400;
+  color: #033975;
+  display: flex;
+  gap: 8px;
+}

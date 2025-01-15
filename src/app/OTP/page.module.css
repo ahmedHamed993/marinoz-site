@@ -1,0 +1,125 @@
+.login {
+  /* background-color: #D86F26; */
+  background-image: url("../../components/Assets/Images/Rectangle\ 869\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  padding: 5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  box-shadow: 0px 12px 24px 2px #b9b9b90d;
+  background: #ffffffcc;
+}
+
+.login form {
+  width: 100%;
+}
+
+.login .form-control {
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.login h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.login p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #00000099;
+}
+
+.login .submit {
+  border-radius: 8px;
+  font-size: 18px;
+  background: #ca852c;
+  color: #fff;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+}
+
+.login .form-control::placeholder {
+  color: #000;
+  font-size: 16px;
+}
+
+.login .form-group {
+  /* margin-bottom: 1rem; */
+}
+
+.login .form-group label {
+  color: #00000099;
+  margin-bottom: 0.3rem;
+  font-size: 16px;
+}
+
+.login .forget {
+  color: #26262699;
+  font-size: 16px;
+}
+
+.login .forget a {
+  color: #034ea2;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.login .or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login .or .or-div {
+  background-color: #239bd8;
+  height: 1px;
+  width: 100%;
+}
+
+.login .or span {
+  margin: 0 1rem;
+  color: #26262699;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.login .social-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login .social-login button {
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.login .social-login button img {
+  width: 30px;
+  object-fit: cover;
+  height: 30px;
+}

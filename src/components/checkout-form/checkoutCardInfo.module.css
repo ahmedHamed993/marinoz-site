@@ -1,0 +1,73 @@
+.card_info {
+  padding: 30px;
+  border: 1px solid #33333320;
+  border-radius: 8px;
+}
+
+.card_info > h6 {
+  color: #333333;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28.8px;
+  margin-bottom: 30px;
+}
+
+.card_info > h6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9e0059;
+  margin: 0;
+}
+
+.info_image {
+  display: flex;
+  gap: 16px;
+}
+
+.info_image img {
+  border-radius: 8px;
+}
+
+.item_info h6 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.item_info p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.guests_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.guests_list > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guests_list > div div {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.guests_list > div div p {
+  background-color: #ddd;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #333;
+}

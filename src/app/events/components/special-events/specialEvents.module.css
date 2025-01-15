@@ -1,0 +1,38 @@
+.special {
+  padding: 80px 0;
+}
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ca852c;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.title + p {
+  color: #023a78;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+.events_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 48px;
+}
+.events_wrapper .event img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.events_wrapper .event p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #152c5b;
+  margin-top: 8px;
+}

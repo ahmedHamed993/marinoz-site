@@ -1,0 +1,130 @@
+.page_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 32px;
+  padding: 68px 0;
+}
+.page_wrapper ul {
+  color: #033975;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.event_title h1 {
+  color: #034ea2;
+  font-family: "Comfortaa";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35.68px;
+  letter-spacing: 0.01em;
+}
+.event_title p {
+  color: #9e9e9e;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section_title {
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: #1c2b38;
+}
+
+.description_content {
+  padding: 32px 0;
+}
+.description_content p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.facilities {
+  padding: 32px 0;
+}
+
+.facilities_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 32px 0;
+}
+.facilities_container div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.facilities_container div p:nth-of-type(1) {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e1dcd4;
+  color: #d5ac69;
+}
+.facilities_container div p:nth-of-type(2) {
+  color: #434d58;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.activities p {
+  color: #1c2b38;
+  margin: 16px 0;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.included {
+  padding: 32px 0;
+}
+.included > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.included > div h6 {
+  color: #1c2b38;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.info {
+  display: flex;
+  gap: 32px;
+}
+.info div h6 {
+  color: #1c2b38;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.info div p {
+  color: #033975;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.meeting_point {
+  padding: 32px 0;
+}
+.meeting_point p {
+  color: #033975;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}

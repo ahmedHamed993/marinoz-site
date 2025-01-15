@@ -1,0 +1,14 @@
+.yacht_image_container {
+  perspective: 1000px; /* Add perspective for 3D effect */
+  display: inline-block;
+  flex: 1;
+}
+
+.yacht_image_container img {
+  display: block;
+  width: 100%; /* Adjust as needed */
+  height: auto;
+  transition: transform 0.1s ease-out; /* Smooth rotation */
+  transform-origin: center;
+  will-change: transform;
+}

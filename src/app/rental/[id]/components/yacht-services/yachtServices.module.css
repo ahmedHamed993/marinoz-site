@@ -1,0 +1,38 @@
+.extra_features {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.extra_features > div {
+  flex: 1;
+}
+
+.title {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #226699;
+}
+
+.items_list > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  text-transform: capitalize;
+}
+
+.items_list > div p {
+  color: #666;
+}

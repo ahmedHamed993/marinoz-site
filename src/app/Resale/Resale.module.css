@@ -1,0 +1,269 @@
+/* Container for all cards */
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+/* Card styling */
+.card {
+  flex: 1; /* This ensures all cards share the space equally */
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  z-index: 1;
+}
+
+/* Content at the bottom of each card */
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.308);
+  padding: 10px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}
+
+.cardContent h3 {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 0.3rem;
+}
+
+.cardContent span {
+  color: #033975;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cardContent p {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Hover effect: the card expands to 100% width */
+.card:hover {
+  flex: 0 0 100%; /* Card expands to take full width */
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+
+.card:hover .cardContent {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Shrink other cards */
+.card:not(:hover) {
+  flex: 1 1 25%; /* Shrink non-hovered cards */
+  transition: all 0.5s ease;
+}
+
+.amenities {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  margin: auto;
+  transform: translateY(-80px);
+  padding: 58px 50px;
+  box-shadow: 0px 4px 20px #50505014;
+  border-radius: 4px;
+  display: flex;
+  gap: 100px;
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+.amenities > div {
+  flex: 1;
+}
+.amenities > div h2 {
+  color: #1c2b38;
+  font-size: 55px;
+  font-weight: 700;
+  font-family: "Comfortaa";
+}
+.amenities > div p {
+  color: #778088;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.amenities_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.amenities_wrapper > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  height: fit-content;
+  box-shadow: 0px 4px 10px #00000014;
+  padding: 12px 20px;
+  gap: 8px;
+  border-radius: 4px;
+}
+
+.containerImage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px; /* Space between images */
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.containerImage .item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.containerImage .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  transition: transform 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.Resale {
+  padding: 5rem 0;
+}
+
+.Resale h2 {
+  box-shadow: 0px 5px 13px 0px #ffffff66;
+  color: #1c2b38;
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Resale p {
+  color: #778088;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.Resale h3 {
+  color: #033975;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.BrandImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+
+.BrandImageItem {
+  margin: 1rem;
+}
+
+.BrandImageItem img {
+  max-width: 125px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.BrandCard {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.BrandCard h2 {
+  color: #374151;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.BoatCard {
+  position: relative;
+}
+
+.ribbon_wrapper_red {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.ribbon_red {
+  font: bold 15px Sans-Serif;
+  color: #fff;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #ea181e;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ea181e),
+    to(#b90005)
+  );
+  background-image: -webkit-linear-gradient(top, #ea181e, #b90005);
+  background-image: -moz-linear-gradient(top, #bfdc7a, #8ebf45);
+  background-image: -ms-linear-gradient(top, #bfdc7a, #8ebf45);
+  background-image: -o-linear-gradient(top, #bfdc7a, #8ebf45);
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon_red:before,
+.ribbon_red:after {
+  content: "";
+  border-top: 3px solid #b90005;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px;
+}
+
+.ribbon_red:before {
+  left: 0;
+}
+
+.ribbon_red:after {
+  right: 0;
+}

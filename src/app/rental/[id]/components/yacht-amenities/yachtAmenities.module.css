@@ -1,0 +1,19 @@
+.amenities > div {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 16px;
+}
+
+.amenities > div div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  color: #434d58;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+}

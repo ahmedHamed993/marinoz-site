@@ -1,0 +1,34 @@
+.input_field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.label {
+  color: #667085;
+  font-size: 16px;
+}
+.input_container {
+  display: flex;
+  align-items: center;
+  height: 49px; /* Fixed height */
+  border: 1px solid #d7dbe2;
+  border-radius: 8; /* Rounded corners on top left */
+  padding: 0 8px; /* Padding for alignment */
+  gap: 8; /* Gap between icon and input */
+  background-color: #fff; /* Optional background */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #828282;
+}
+
+.styled_input {
+  flex: 1;
+  border: none;
+  outline: none;
+  height: 100%;
+  font-size: 16px;
+}

@@ -1,0 +1,19 @@
+.destination_details h1 {
+  text-align: center;
+  color: #033975;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.destination_details h1 + p {
+  color: #778088;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 25px;
+}

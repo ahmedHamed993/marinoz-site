@@ -1,0 +1,89 @@
+.card {
+  display: flex;
+  border-radius: 8px 40px 40px 8px;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  right: 100px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.card::before {
+  top: -50px;
+}
+.card::after {
+  bottom: -50px;
+}
+.card > img {
+  height:400px;
+  object-fit: cover;
+  object-position: center;
+}
+.card > div {
+  padding: 32px;
+  background-color: #01244a;
+  border-left: 3px dashed #fff;
+  flex:1;
+}
+
+.city {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.title_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 26px 0 16px;
+}
+.title_price h3 {
+  font-family: " Comfortaa";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 27.5px;
+}
+.title_price h4 {
+  font-family: "Comfortaa";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.dashed_divider {
+  width: 100%;
+  border-bottom: 3px dashed #fff;
+  margin-bottom: 16px;
+}
+.packages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.description {
+  color: #bcbcbc;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-right: 40px;
+}
+.card a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: underline !important;
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.tabs_content {
+  max-width: 1000px;
+  margin: auto;
+}
+.tabs {
+  width: 100%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+  transform: translateY(-40px);
+}
+.tabs button {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 16px;
+  text-transform: capitalize;
+}

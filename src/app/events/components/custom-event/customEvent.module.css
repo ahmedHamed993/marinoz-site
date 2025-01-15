@@ -1,0 +1,27 @@
+.custom_event {
+  background-image: url("/images/BG.png");
+  background-size: cover;
+  padding: 56px 70px;
+  display: flex;
+  margin: 80px 0;
+  border-radius: 36px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.custom_event .title h3 {
+  color: #fff;
+  font-size: 55px;
+  font-family: "Comfortaa";
+  font-weight: bold;
+}
+.custom_event .title > p {
+  max-width: 560px;
+  font-family: "Lato";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+.form_wrapper {
+  flex: 1;
+}

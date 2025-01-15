@@ -1,0 +1,55 @@
+.wrapper {
+  padding: 80px 0;
+}
+.wrapper h2 {
+  font-family: Lato;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 18.8px;
+  text-align: center;
+  color: #033975;
+}
+.wrapper .slide_content {
+  width: 300px;
+  box-shadow: 0px 4.43px 17.71px 0px #9e9e9e40;
+  border-radius: 8px;
+}
+.wrapper .slide_content img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.slider {
+  margin: 64px 0;
+  padding-bottom: 64px;
+}
+
+.slide_content div {
+  padding: 1rem;
+}
+.slide_content div h6 {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 11.88px;
+  color: #000;
+}
+.slide_content div p {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: .2rem;
+  color: #023A78;
+}
+.slide_content div p span {
+  font-weight: normal;
+  color: #034EA2;
+  margin-left: 0.2rem;
+}
+
+.slide_content div span {
+  color: #808080;
+  font-size: 14px;
+}

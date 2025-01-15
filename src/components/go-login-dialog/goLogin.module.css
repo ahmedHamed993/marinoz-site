@@ -1,0 +1,26 @@
+.go_login {
+
+}
+.go_login h6 {
+    font-size:1.2rem;
+    font-weight:500;
+    margin-bottom:1rem;
+    color:rgb(10, 10, 61);
+}
+.go_login_actions {
+    display:flex;
+    gap:16px;
+}
+.go_login_actions > a {
+    background-color: rgb(10, 10, 61);
+    color:#fff;
+    padding:8px 16px;
+    border-radius:8px;
+    text-transform: capitalize;
+}
+.go_login_actions > button {
+    border:none;
+    outline:none;
+    background-color: transparent;
+    text-transform: capitalize;
+}

@@ -1,0 +1,14 @@
+.specifications > div {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 16px;
+}
+.specifications > div p {
+  display: inline;
+  color: #343a40;
+  text-transform: capitalize;
+}
+
+.specifications > div p span {
+  font-weight: 700;
+}

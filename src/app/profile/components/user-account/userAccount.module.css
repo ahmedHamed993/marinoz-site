@@ -1,0 +1,25 @@
+.user_account h5 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: #023a78;
+}
+.fields {
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+}
+.field_row {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.field_row div h6 {
+  color: #999;
+}
+.field_row div p {
+  color: #023a78;
+  font-size: 20px;
+}

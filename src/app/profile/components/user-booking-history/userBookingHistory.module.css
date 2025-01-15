@@ -1,0 +1,33 @@
+.booking_history {
+  padding: 32px;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.row__service_name {
+  display: flex;
+  gap: 8px;
+}
+
+.row__service_name div h6 {
+  font-weight: bold;
+}
+
+.row__service_name div p {
+  margin: 0;
+  color: #777;
+}
+
+.payment_method,
+.price,
+.status {
+  font-weight: bold;
+}

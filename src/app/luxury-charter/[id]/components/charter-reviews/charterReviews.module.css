@@ -1,0 +1,44 @@
+.reviews_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.review_value {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review_value h6 {
+  font-weight: bold;
+  font-size: 34px;
+  color: #023a78;
+  margin: 0 !important;
+}
+
+.review_value h6 span {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reviews_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.reviews_list > div {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  color: #555;
+}
+
+.reviews_list > div p:nth-of-type(1) {
+  width: 120px;
+}

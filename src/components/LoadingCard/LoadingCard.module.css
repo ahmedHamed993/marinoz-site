@@ -1,0 +1,57 @@
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #034ea2;
+  border-top: 4px solid #ca852c;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

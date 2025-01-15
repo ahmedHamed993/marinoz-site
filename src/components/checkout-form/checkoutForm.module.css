@@ -1,0 +1,41 @@
+.checkout_form_container {
+  padding: 64px 0;
+}
+
+.form_info_container {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 64px;
+}
+
+.first_step {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.next_button {
+  background-color: #0fb0c4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px;
+  text-transform: capitalize;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.second_step h6 {
+  color: #333;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+}
+
+.fields_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}

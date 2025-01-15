@@ -1,0 +1,43 @@
+.categories_slider {
+  padding-bottom: 3rem;
+}
+.categories_slider h2 {
+  font-family: Lato;
+  font-size: 35.42px;
+  font-weight: 700;
+  line-height: 42.51px;
+  text-align: left;
+  color: #033975;
+  margin-bottom: 1rem;
+}
+.categories_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+}
+.categories_wrapper button {
+  height: 170px;
+  width: 300px;
+  min-width: 300px;
+  background-size: cover;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  padding-bottom: 1rem;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31.88px;
+
+  @media only screen and (min-width: 991px) {
+    height: 210px;
+    width: 380px;
+    min-width: 380px;
+    font-size: 26.57px;
+  }
+}

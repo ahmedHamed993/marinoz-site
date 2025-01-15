@@ -1,0 +1,132 @@
+.custom_form > form {
+  background-color: #00000050;
+  border-radius: 16px;
+  padding: 24px;
+  color: #fff;
+}
+
+.custom_form .top_tabs > div {
+  display: flex;
+  align-items: center;
+}
+
+.custom_form .top_tabs button {
+  color: #fff;
+  text-transform: capitalize;
+  flex: 1;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.first_step_container,
+.second_step_container {
+  height: 300px;
+  overflow: auto;
+  color: #fff;
+}
+
+.first_step_container > div > div {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  gap: 8px;
+}
+
+.first_step_container select {
+  border: none;
+  outline: none;
+  padding: 16px;
+  background-color: #ffffff10;
+  color: #fff;
+}
+
+.first_step_container select option {
+  color: #000;
+}
+
+.second_step_container > div {
+  padding: 16px 0;
+}
+
+.boarding_tabs_steps {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.boarding_tabs_steps button {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #ffffff20;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+
+.checkbox_input {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.text_area {
+  padding: 16px;
+  background-color: #ffffff20;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  font-family: "Lato";
+}
+
+.snorkling_inputs {
+  display: flex;
+  gap: 16px;
+}
+
+.snorkling_inputs > div {
+  flex: 1;
+}
+
+.snorkling_inputs > div label {
+  color: #fff;
+}
+
+.snorkling_inputs > div input {
+  background: #ffffff30 !important;
+}
+
+.checkboxes_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 32px 0;
+}
+
+.step_nav {
+  margin: auto;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 8px;
+  color: white;
+}
+
+.step_nav button {
+  text-transform: capitalize;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background: #00000070;
+  color: #fff;
+  padding: 8px;
+  font-size: 12px;
+}

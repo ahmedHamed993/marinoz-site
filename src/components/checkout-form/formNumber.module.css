@@ -1,0 +1,48 @@
+.field_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #33333333;
+  padding: 16px 20px;
+  border-radius: 8px;
+}
+
+.field_container div > h6 {
+  color: #333333;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.field_container div > p {
+  color: #0fb0c4;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+}
+
+.field_input_container {
+  border: 1px solid #efefef;
+  display: flex;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.field_input_container input {
+  width: 64px;
+  background-color: #efefef;
+  color: #333333;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.field_input_container button {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  width: 32px;
+}

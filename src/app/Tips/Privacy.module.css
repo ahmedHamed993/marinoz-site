@@ -1,0 +1,78 @@
+.tips {
+  padding: 5rem 0;
+}
+
+.tips h2 {
+  font-size: 52px;
+  color: #033975;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.tips p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.tips .bookCard {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tips .bookCard img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.tips h3 {
+  font-size: 18px;
+  color: #012e41;
+  margin: 0.3rem 0;
+  font-weight: bold;
+}
+
+.tips img {
+  object-fit: contain;
+}
+
+.tips .TipsImage {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.ticket {
+  padding: 5rem 0;
+}
+
+.ticket h1 {
+  text-align: center;
+  font-size: 52px;
+  color: #033975;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.ticket img {
+  width: 100%;
+  height: 100%;
+}
+
+.ticket p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.ticket span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.ticket h2 {
+  font-size: 22px;
+  color: #033975;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}

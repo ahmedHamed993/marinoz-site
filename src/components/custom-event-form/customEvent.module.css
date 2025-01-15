@@ -1,0 +1,35 @@
+.custom_form__wrapper {
+    width:300px;
+    padding: 16px 16px;
+    @media only screen and (min-width:768px){
+        width:500px;
+    }
+    @media only screen and (min-width:991px){
+        width:800px;
+    }
+}
+.custom_form__wrapper h5 {
+    font-size:2rem;
+    color:#033975;
+    font-weight: 600;
+    margin-bottom:2rem;
+}
+
+.custom_form__fields_wrapper {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:16px;
+}
+.custom_form button[type='submit']{
+    margin-top:32px;
+    background-color:#033975;
+    color:#fff;
+    border:none;
+    outline:none;
+    padding:12px 0;
+    box-sizing: border-box;
+    border-radius:8px;
+    font-size:1.2rem;
+    font-weight:500;
+    width:100%;
+}

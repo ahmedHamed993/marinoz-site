@@ -1,0 +1,59 @@
+.destinations {
+  padding: 5rem 0;
+}
+
+.destinationsCard {
+  /* background-image: url("../../components/Assets/Images/image\ 18.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  position: relative;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  min-height: 100%;
+  /* height: 100%; */
+  transition: 0.3s all;
+  display: block;
+}
+
+/* .destinationsCard:hover {
+    left: -100%;
+    transition: .3s all;
+} */
+
+.destinationsCardLayout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  z-index: 1;
+  background: linear-gradient(to bottom, #00000050, #00000050);
+  height: 100%;
+  border-radius: 12px;
+  transition: 0.3s all;
+}
+
+.destinationsCard h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  /* margin-bottom: 0.6rem; */
+}
+.destinationsCard h3 {
+  color: #f8f8f8;
+  font-size: 20px;
+  font-weight: normal;
+}
+.destinationsCard span {
+  color: #ffffff;
+  font-size: 16px;
+}

@@ -1,0 +1,42 @@
+.upcomming {
+  padding: 80px 0;
+}
+
+.title {
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #033975;
+}
+.event_types_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+.event_type {
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px #00000017;
+  color: #aaaeb1;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 12px 24px;
+}
+.event_type p {
+  margin: 0;
+}
+.event_type.active {
+  background-color: #9e0059;
+  color: #fff;
+}
+
+.events_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}

@@ -1,0 +1,168 @@
+.login {
+  /* background-color: #D86F26; */
+  background-image: url("../../components/Assets/Images/Rectangle\ 869\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginCard {
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  box-shadow: 0px 12px 24px 2px #b9b9b90d;
+  background: #ffffffcc;
+}
+
+.login form {
+  width: 100%;
+}
+
+.fromControl {
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.login h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.login p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #00000099;
+}
+
+.submit {
+  border-radius: 8px;
+  font-size: 18px;
+  background: #ca852c;
+  color: #fff;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+}
+
+.fromControl::placeholder {
+  color: #000;
+  font-size: 16px;
+}
+
+.formGroup {
+  /* margin-bottom: 1rem; */
+}
+
+.formGroup label {
+  color: #00000099;
+  margin-bottom: 0.3rem;
+  font-size: 16px;
+}
+
+.forget {
+  color: #26262699;
+  font-size: 16px;
+  border:none;
+  outline:none;
+  background:transparent;
+}
+
+.forget a {
+  color: #034ea2;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.or .or_div {
+  background-color: #239bd8;
+  height: 1px;
+  width: 100%;
+}
+
+.or span {
+  margin: 0 1rem;
+  color: #26262699;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.social_login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LoginImage {
+  width: 70%;
+  object-fit: contain;
+}
+
+.social_login button {
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.social_login button img {
+  width: 30px;
+  object-fit: cover;
+  height: 30px;
+}
+
+.otpContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.otpInput {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.otpInput:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,54 @@
+.about {
+  padding: 5rem 0;
+}
+
+.about span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.about h2 {
+  font-size: 52px;
+  color: #033975;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.about img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.provide {
+  padding: 5rem 0;
+}
+
+.provide span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.provide ul {
+  list-style: none;
+}
+
+.provide ul li {
+  font-size: 16px;
+  color: #5b656f;
+  margin-bottom: 0.4rem;
+}
+
+.provide p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.provide img {
+  width: 100%;
+  object-fit: contain;
+}

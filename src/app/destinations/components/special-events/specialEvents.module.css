@@ -1,0 +1,70 @@
+.special_events {
+  padding: 64px 0;
+}
+.special_events h2 {
+  color: #ca852c;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.special_events > p {
+  color: #023a78;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.special_events .slider {
+  padding-bottom: 64px;
+}
+.special_events .slide_content {
+  border-radius: 15px;
+}
+.special_events .slide_content > img {
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.special_events .slide_content > div {
+}
+.special_events .slide_content > div h6 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 10px;
+  color: #152c5b;
+}
+.special_events .slide_content > div > div {
+  margin-top: 16px;
+}
+.special_events .slide_content .date_price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.special_events .slide_content .date_price p {
+  color: #969696;
+}
+.special_events .slide_content .date_price p:nth-of-type(2) {
+  color: #ca852c;
+}
+.customize_btn {
+  background-color: #ca852c;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 12px;
+  margin: auto;
+  padding: 13px 42px;
+  display: block;
+  width: fit-content;
+  margin: 32px auto;
+  border:none;
+  outline:none;
+}

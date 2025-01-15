@@ -1,0 +1,72 @@
+.FormDetails {
+  border-right: 1px solid #a3aaca;
+  padding: 0 2rem 0 0;
+}
+
+.FormDetails h2 {
+  color: #19b7db;
+  font-size: 26px;
+}
+
+.FormDetails p {
+  color: #023a78;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.FormDetails h3 {
+  color: #19b7db;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.FormDetails a {
+  color: #023a78;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+}
+
+.FormDetails h4 {
+  margin: 1rem 0;
+  color: #023a78;
+  font-size: 22px;
+}
+
+.FormDetails a i {
+  color: #19b7db;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.FormControl {
+  border: none;
+  width: 100%;
+  color: #023a78;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #9e9e9e;
+  padding: 0.3rem 1rem;
+  background-color: transparent;
+}
+
+.FormControl::placeholder {
+  color: #023a78;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.submit {
+  background-color: transparent;
+  border: none;
+  color: #023a78;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}

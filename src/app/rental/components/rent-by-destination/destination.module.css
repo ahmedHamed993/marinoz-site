@@ -1,0 +1,68 @@
+.destination {
+  padding: 86px 0;
+}
+.destination h6 {
+  color: #152c5b;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 46px;
+}
+.destination__list button {
+  border: none;
+  outline: none;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  position: relative;
+}
+.destination__list button h6 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 12px;
+  right: 50%;
+  transform: translateX(50%);
+  color: #fff;
+  font-family: "Lato";
+  font-weight: 500;
+  margin: 0;
+  width: 100%;
+}
+
+.destination__list_header {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.destination__list_header h6 {
+  margin-bottom: 24px;
+}
+.destination__list_header p {
+  color: #778088;
+  max-width: 540px;
+}
+.destination__list_sort {
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+  font-size: 18px;
+}
+.destination__list_sort p {
+  margin: 0;
+}
+.destination__list_sort select {
+  font-size: 18px;
+  background-color: transparent;
+  color: #152c5b;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.destination__yacht_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  gap: 32px;
+}

@@ -1,0 +1,17 @@
+.recreation_tenders .tabs {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.recreation_tenders .tabs button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 8px 16px;
+  color: #0564a099;
+}
+
+.recreation_tenders .tabs button.active {
+  border-bottom: 1px solid black;
+  color: #0564a0;
+}

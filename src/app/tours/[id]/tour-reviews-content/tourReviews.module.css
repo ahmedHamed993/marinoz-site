@@ -1,0 +1,147 @@
+.reviews_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.review_value {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review_value h6 {
+  font-weight: bold;
+  font-size: 34px;
+  color: #023a78;
+  margin: 0 !important;
+}
+
+.review_value h6 span {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reviews_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.reviews_list > div {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  color: #555;
+}
+
+.reviews_list > div p:nth-of-type(1) {
+  width: 120px;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 90%;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.starContainer {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.activeStar {
+  color: #ffd700;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.saveButton {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.closeButton {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addReviewButton {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.slide {
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  height: 100vh;
+  max-height: 700px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.slideLayout {
+  padding: 80px 0;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #00000085;
+}
+.slide_content {
+  background-color: #F4F8FE54;
+  width: fit-content;
+  padding: 36px 85px;
+  border-radius: 0px 40px 40px 0;
+}
+
+.slide_text h6 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+  margin-left: 1rem;
+}
+.slide_text p {
+  font-family: Comfortaa;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-left: 1rem;
+}
+.slide_text p span {
+  color: #fff;
+  font-weight: 600;
+}
+.slide_text p span:nth-of-type(2) {
+  color: #000;
+}
+.tabs_container {
+  display: flex;
+  margin: 16px 0;
+}
+.tabs_container button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 8px 1rem;
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #333;
+}
+/* .tabs_container button:first-child {
+  margin-left: 0rem;
+} */
+.discover_link {
+  padding: 8px 26px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 12px;
+  border-radius: 4px;
+}

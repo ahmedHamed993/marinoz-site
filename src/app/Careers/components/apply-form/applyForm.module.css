@@ -1,0 +1,80 @@
+.apply_form__wrapper {
+    width:100%;
+    max-width: 900px;
+}
+.apply_form__wrapper > h3 {
+    font-family: "Lato";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    margin-bottom:60px;
+}
+.apply_form__wrapper > h6 {
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: start;
+    text-decoration-skip-ink: none;
+    color:#033975;
+}
+.apply_form__wrapper > p {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#033975;
+}
+.apply_form__wrapper > p > span {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#033975;
+}
+.apply_form__wrapper .apply_form_fields {
+    display:flex;
+    justify-content: center;
+    gap:16px;
+    flex-wrap: wrap;
+}
+.apply_form__wrapper .apply_form_fields > * {
+    flex:1;
+    flex-basis: 49%;
+}
+.apply_form__wrapper .apply_form_fields >  label {
+    border:1px solid #d7dbe2;
+  padding: 8px 16px; /* Padding for alignment */
+  height: 49px; /* Fixed height */
+  display: flex;
+  align-items: center;
+  border-radius: 8; /* Rounded corners on top left */
+cursor:pointer;
+}
+.apply_form__actions {
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+.apply_form__actions > button {
+    max-width:200px;
+    margin:0;
+    margin-top:48px;
+}
+.apply_form__actions > button[type='button']{
+    background-color: #CFCFCF;
+    color:#fff;
+}
+.apply_form__actions > button[type='submit']{
+    background-color: #CA852C;
+    color:#fff;
+}

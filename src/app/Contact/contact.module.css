@@ -1,0 +1,74 @@
+.contact {
+  padding: 5rem 0;
+}
+
+.contact span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.contact h2 {
+  font-size: 52px;
+  color: #033975;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.contact img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.contactCard {
+  background: #d1e6e8;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+.contactCard a {
+  text-decoration: none;
+  display: block;
+  color: #033975;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.contactCard a i {
+  color: #033975;
+  margin-right: 0.5rem;
+}
+
+.provide {
+  padding: 5rem 0;
+}
+
+.provide span {
+  color: #ca852c;
+  font-size: 20px;
+}
+
+.provide ul {
+  list-style: none;
+}
+
+.provide ul li {
+  font-size: 16px;
+  color: #5b656f;
+  margin-bottom: 0.4rem;
+}
+
+.provide p {
+  font-size: 16px;
+  color: #5b656f;
+}
+
+.provide img {
+  width: 100%;
+  object-fit: contain;
+}

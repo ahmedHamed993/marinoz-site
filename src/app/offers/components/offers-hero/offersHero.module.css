@@ -1,0 +1,64 @@
+.hero {
+  padding: 64px 0;
+  background: url("/images/world-bg.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero_container {
+  display: flex;
+  gap: 32px;
+}
+.hero_text {
+}
+.hero_text h1 {
+  font-family: Lato;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 79px;
+  margin-bottom: 64px;
+}
+.hero_text h1 span {
+  color: #9e0059;
+}
+.hero_text > p {
+  color: #778088;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.hero_text .hero_destinations {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.hero_text .hero_destinations button {
+  border: none;
+  outline: none;
+  background-color: #f1f3f4;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+.active_btn {
+  background: #9e0059;
+  color: #fff;
+}
+.hero_images {
+  display: flex;
+  gap: 32px;
+}
+.hero_images img {
+  width: 272px;
+  height: 300px;
+  border-radius: 30px;
+}
+.hero_images > div {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

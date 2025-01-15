@@ -1,0 +1,22 @@
+.notes {
+  background-color: #d1e6e8;
+  color: #023a78;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.notes h6 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Comfortaa";
+  margin-bottom: 16px;
+}
+
+.notes ul {
+  list-style-type: disc;
+  padding-left: 1rem !important;
+}
+
+.notes ul li {
+  margin-top: 8px;
+}

@@ -1,0 +1,77 @@
+.shop {
+  padding: 4rem 0;
+}
+.shop h1 {
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #033975;
+}
+
+.shop h1 + p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  color: #778088;
+  margin-bottom: 2rem;
+}
+
+.products_header h3 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ca852c;
+  margin-bottom: 1rem;
+}
+.products_header h3 + p {
+  color: #778088;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  width: 540px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.products_filters {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.filters_ads {
+  min-width: 320px;
+  display:none;
+  @media only screen and (min-width:991px){
+    display:block;
+  }
+}
+
+.products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 32px;
+  border-radius: 8px;
+}
+.product_filters_toggler {
+  border:none;
+  outline:none;
+  background-color: transparent;
+  font-size:32px;
+  display:block;
+  margin:16px 0;
+  @media only screen and (min-width:991px){
+    display:none;
+  }
+}

@@ -1,0 +1,114 @@
+.explore {
+  padding: 64px 0;
+}
+
+.explore .tabs {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.explore .tabs .tab {
+  text-transform: capitalize;
+  color: #033975;
+  box-shadow: 0px 2px 7px 0px #c2c2c240;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.explore .tabs .tab.active {
+  background-color: #ca852c;
+  color: #fff;
+}
+
+.explore .title_info {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.explore .title_info h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  margin-bottom: 12px;
+  color: #033975;
+}
+
+.explore .title_info p {
+  color: #034ea2;
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.regions {
+  margin: 32px 0;
+}
+
+.regions > h5 {
+  color: #ca852c;
+  margin-bottom: 32px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.regions .region_cards_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.regions .region_cards_wrapper .region_card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  min-width: 300px;
+}
+
+.regions .region_cards_wrapper .region_card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.regions .region_cards_wrapper .region_card div {
+  margin: 0;
+}
+
+.regions .region_cards_wrapper .region_card h6 {
+  color: #033975;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.regions .region_cards_wrapper .region_card p {
+  color: #023a78ba;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.01px;
+}
+
+.charters_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}

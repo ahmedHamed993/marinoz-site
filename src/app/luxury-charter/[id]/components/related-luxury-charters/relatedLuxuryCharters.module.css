@@ -1,0 +1,19 @@
+.related {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+.related h2 {
+  font-family: "Comfortaa";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 64px;
+  color: #034ea2;
+}
+.charters_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}

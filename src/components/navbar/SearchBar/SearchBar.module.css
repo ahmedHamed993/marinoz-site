@@ -1,0 +1,82 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  border: 0.81px solid;
+  border-image-source: linear-gradient(
+    268.56deg,
+    #ffffff 21.31%,
+    rgba(255, 255, 255, 0.47) 84.75%
+  );
+  background: #9e9e9e0a;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+
+.searchBarHero {
+  background: #FAFEFF87;
+  border: 0.81px solid;
+  border-image-source: linear-gradient(268.56deg, #FFFFFF 21.31%, rgba(255, 255, 255, 0.47) 84.75%);
+  backdrop-filter: blur(75.26963806152344px);
+  margin-left: 1rem;
+  box-shadow: 2.43px 0px 9px 0px #8585851F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBarHero .select,
+.searchBarHero .input {
+  width: 100%;
+  border-radius: 8px;
+  /* padding: 8px; */
+  border: none;
+}
+
+.select {
+  padding: 10px 8px;
+  border-radius: 5px;
+  border: 0.81px solid;
+  border-image-source: linear-gradient(
+    268.56deg,
+    #ffffff 21.31%,
+    rgba(255, 255, 255, 0.47) 84.75%
+  );
+  background: #ffffff;
+  color: #023a78;
+  font-size: 14px;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.81px solid;
+  border-image-source: linear-gradient(
+    268.56deg,
+    #ffffff 21.31%,
+    rgba(255, 255, 255, 0.47) 84.75%
+  );
+  background: #ffffff;
+  color: #023a78;
+  font-size: 14px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+.filter_input_date {
+  padding: 8px;
+  border-radius: 5px;
+  border: 0.81px solid;
+  border-image-source: linear-gradient(
+    268.56deg,
+    #ffffff 21.31%,
+    rgba(255, 255, 255, 0.47) 84.75%
+  );
+  background: #ffffff;
+  color: #023a78;
+  font-size: 14px;
+}

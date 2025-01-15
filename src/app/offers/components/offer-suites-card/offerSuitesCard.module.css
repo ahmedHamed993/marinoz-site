@@ -1,0 +1,38 @@
+.offer_card {
+  width: 320px;
+  min-width: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.offer_card > img {
+  height: 240px;
+  width: 100%;
+  border-radius: 16px;
+}
+.offer_card > a {
+  font-family: Lato;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+  color: #033975;
+  margin-top: 16px;
+  display: block;
+}
+.offer_card > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+.offer_card > p span:nth-of-type(2) {
+  color: #ca852c;
+}
+.offer_card > h6 {
+  color: #009edb;
+  font-family: Lato;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: left;
+}
